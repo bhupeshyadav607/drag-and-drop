@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container {
+    height: calc(100vh - 4rem);
+    width: calc(100vw - 4rem);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem;
+    overflow: hidden;
+}
+
+.inner-container {
+    height: 70%;
+    width: 40%;
+    background-color: gray;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+.item {
+    height: 50px;
+    width: 80px;
+    background-color: white;
+    margin: 0.3rem;
+    cursor: pointer;
+}
+
+.success {
+    background-color: #aaffaa !important;
+}
+
+.reset-btn {
+    height: 3rem;
+    width: 7rem;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
